@@ -4,9 +4,9 @@ public class TypeCastingIn_Division {
     public static void main(String[] args) {
         int a= 10;
         int b=3;
-        int d= a/b;
-        System.out.println(d);
-        double myDouble=(double)d;
+        int result= a/b;
+        System.out.println(result);
+        double myDouble=result;
         System.out.println(myDouble);
     }
 }
