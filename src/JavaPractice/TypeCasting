@@ -1,0 +1,16 @@
+package Live_Test_Java;
+
+public class TypeCasting {
+    public static void main(String[] args) {
+        int i=10;
+        double d=12.34;
+
+        //implicit
+       double db=i;
+        System.out.println(db);
+
+        //explicit
+       int num=(int)d;
+        System.out.println(num);
+    }
+}
