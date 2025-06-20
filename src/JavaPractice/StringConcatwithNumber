@@ -1,0 +1,10 @@
+package Live_Test_Java;
+
+public class StringConcatwithNumber {
+    public static void main(String[] args) {
+        int i=10;
+        int j=20;
+        String s="Hello";
+        System.out.println(s+i+j);
+    }
+}
