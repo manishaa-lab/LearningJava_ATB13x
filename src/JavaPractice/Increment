@@ -1,0 +1,10 @@
+package Live_Test_Java;
+
+public class pre_postIncrement {
+    public static void main(String[] args) {
+        int i=2;
+        int j=2;
+        System.out.println(++i);//increment before print
+        System.out.println(j++);//increment after print
+    }
+}
