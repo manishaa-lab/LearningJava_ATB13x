@@ -1,0 +1,50 @@
+package Live_Test_Java;
+
+public class All_Operators {
+    public static void main(String[] args) {
+        int a=20;
+        int b=10;
+        //Arithmatic Operators
+        System.out.println(a+b);
+        System.out.println(a-b);
+        System.out.println(a*b);
+        System.out.println(a/b);
+        System.out.println(a%b);
+
+        //Assignment  Operators
+        String s="Hello";
+        System.out.println(s);
+
+        //Unary Operators
+        int a1=11;
+        System.out.println(++a1);
+        System.out.println(a1++);
+        System.out.println(--a1);
+        System.out.println(a1--);
+
+        //Ternary Operators
+        int _num=10;
+        int _sum=20;
+        boolean result=((_num>_sum)? true:false);
+        System.out.println(result);
+
+        //Logical Operators
+        boolean x=true;
+        boolean y=false;
+        System.out.println("x&&y:"+ (x&&y));
+        System.out.println("x||y:"+ (x||y));
+        System.out.println("!y:"+ (!y));
+
+        //Relational Operators
+        int c=10;
+        int d=20;
+
+        System.out.println("c>d:"+(c>d));
+        System.out.println("c>=d:"+(c>=d));
+        System.out.println("c<d:"+(c<d));
+        System.out.println("c<=d:"+(c<=d));
+        System.out.println("c==d:"+(c==d));
+        System.out.println("c!=d:"+(c!=d));
+
+    }
+}
