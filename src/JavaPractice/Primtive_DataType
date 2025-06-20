@@ -1,0 +1,24 @@
+package Live_Test_Java;
+
+public class Primtive_DataType {
+    public static void main(String[] args) {
+        int i=0;
+        byte b=123;
+        char ch='A';
+        boolean isTrue=true;
+        float f=123.4f;
+        long l=1000000l;
+        double d=12.43;
+        short s=12;
+
+        System.out.println(i);
+        System.out.println(b);
+        System.out.println(ch);
+        System.out.println(isTrue);
+        System.out.println(f);
+        System.out.println(l);
+        System.out.println(d);
+        System.out.println(s);
+
+    }
+}
